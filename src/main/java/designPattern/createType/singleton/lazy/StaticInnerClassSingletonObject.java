@@ -1,5 +1,6 @@
 package designPattern.createType.singleton.lazy;
 
+import designPattern.utils.LoggerUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -9,11 +10,6 @@ import org.slf4j.LoggerFactory;
  *
  */
 public class StaticInnerClassSingletonObject {
-    /**
-     * 静态私有常量
-     */
-    private static final Logger logger = LoggerFactory.getLogger(StaticInnerClassSingletonObject.class);
-
     /**
      * 单例类持有人
      */
@@ -39,6 +35,6 @@ public class StaticInnerClassSingletonObject {
      * 展示信息
      */
     public void showMessage(){
-        logger.info("this is a static inner class singleton");
+        LoggerUtil.info("this is a static inner class singleton");
     }
 }

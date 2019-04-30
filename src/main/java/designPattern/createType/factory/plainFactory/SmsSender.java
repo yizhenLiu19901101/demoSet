@@ -1,5 +1,7 @@
 package designPattern.createType.factory.plainFactory;
 
+import designPattern.utils.LoggerUtil;
+
 /**
  * 具体产品
  * @author liuyizhen
@@ -7,8 +9,7 @@ package designPattern.createType.factory.plainFactory;
  */
 public class SmsSender implements Sender {
 
-	@Override
 	public void send() {
-		System.out.println("this is sms sender!");
+		LoggerUtil.info("this is sms sender!");
 	}
 }

@@ -1,5 +1,7 @@
 package designPattern.createType.factory.plainFactory;
 
+import designPattern.utils.LoggerUtil;
+
 /**
  * 客户
  * 工厂方法：父类定义了创建对象的接口，但是由子类来具体实现，工厂方法让类把实例化的动作推迟到了子类当中。
@@ -24,7 +26,7 @@ public class FactoryTest {
             sender = factory.produce(MessageType.TS.getKey());
             sender.send();
         }catch(NullPointerException ex){
-            System.out.println("工厂不生成该产品");
+            LoggerUtil.info("工厂不生成该产品");
         }
     }
 }

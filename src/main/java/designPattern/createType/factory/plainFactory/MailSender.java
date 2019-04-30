@@ -1,5 +1,7 @@
 package designPattern.createType.factory.plainFactory;
 
+import designPattern.utils.LoggerUtil;
+
 /**
  * 具体产品
  * @author liuyizhen
@@ -7,6 +9,6 @@ package designPattern.createType.factory.plainFactory;
 public class MailSender implements Sender {
 
 	public void send() {
-		System.out.println("this is mail sender!");
+		LoggerUtil.info("this is mail sender!");
 	}
 }

@@ -1,6 +1,7 @@
 package designPattern.createType.prototype;
 
 
+import designPattern.utils.LoggerUtil;
 import lombok.Data;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,10 +12,6 @@ import org.slf4j.LoggerFactory;
  */
 @Data
 public class Rectangle extends ShapeObject{
-    /**
-     * 日志对象
-     */
-    private static final Logger logger = LoggerFactory.getLogger(Rectangle.class);
 
     private String label;
     /**
@@ -36,6 +33,6 @@ public class Rectangle extends ShapeObject{
 
     @Override
      public void draw() {
-         logger.info("Inside Rectangle::draw() method.");
+         LoggerUtil.info("Inside Rectangle::draw() method.");
      }
 }

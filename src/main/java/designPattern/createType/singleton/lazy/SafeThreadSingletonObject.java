@@ -1,5 +1,6 @@
 package designPattern.createType.singleton.lazy;
 
+import designPattern.utils.LoggerUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -9,11 +10,6 @@ import org.slf4j.LoggerFactory;
  *
  */
 public class SafeThreadSingletonObject {
-
-    /**
-     * 静态私有常量
-     */
-    private static final Logger logger = LoggerFactory.getLogger(SafeThreadSingletonObject.class);
 
     /**
      * 私有成员变量
@@ -41,6 +37,6 @@ public class SafeThreadSingletonObject {
      */
     public void showMessage(){
         //打印信息
-        logger.info("this is safe thread singleton object");
+        LoggerUtil.info("this is safe thread singleton object");
 	}
 }

@@ -1,6 +1,7 @@
 package designPattern.createType.singleton.hungery;
 
 import designPattern.createType.singleton.lazy.DoubleLockSingletonObject;
+import designPattern.utils.LoggerUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,11 +11,6 @@ import org.slf4j.LoggerFactory;
  *
  */
 public class HungrySingletonObject {
-
-    /**
-     * 静态私有常量
-     */
-    private static final Logger logger = LoggerFactory.getLogger(HungrySingletonObject.class);
     /**
      * 静态的私有成员变量
      */
@@ -37,6 +33,6 @@ public class HungrySingletonObject {
      * 展示信息
      */
 	public void showMessage(){
-        logger.info("this is a hungry singleton");
+        LoggerUtil.info("this is a hungry singleton");
 	}
 }
