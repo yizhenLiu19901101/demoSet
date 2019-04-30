@@ -97,3 +97,44 @@
 248  [main] WARN  log.HelloLog - warn
 249  [main] ERROR log.HelloLog - error
 249  [main] TRACE log.HelloLog - trace
+256  [main] INFO  d.c.singleton.SingletonTest - 使用非线程安全的懒汉式单例模式创建对象
+261  [main] INFO  d.c.singleton.SingletonTest - this is first singleton object
+294  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp0是否是同一个对象？false 红色的
+298  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+298  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp1是否是同一个对象？false 红色的
+298  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+298  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp2是否是同一个对象？false 红色的
+298  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+285  [main] INFO  d.c.singleton.SingletonTest - 使用非线程安全的懒汉式单例模式创建对象
+287  [main] INFO  d.c.singleton.SingletonTest - 两个对象是否相同：true
+246  [main] INFO  d.c.singleton.SingletonTest - 使用非线程安全的懒汉式单例模式创建对象
+249  [main] INFO  d.c.singleton.SingletonTest - object1 `s hashCode984849465,objectw `s hashCode984849465
+250  [main] INFO  d.c.singleton.SingletonTest - 两个对象是否相同：true
+236  [main] INFO  d.c.singleton.SingletonTest - 使用非线程安全的懒汉式单例模式创建对象
+239  [main] INFO  d.c.singleton.SingletonTest - object1 `s hashCode: 984849465,objectw `s hashCode: 984849465
+239  [main] INFO  d.c.singleton.SingletonTest - 两个对象是否相同：true
+253  [main] INFO  d.c.prototype.PrototypeTest - rectangle `s hashCode: 32219311,cloneCp `s hashCode: 32219311
+255  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp0是否是同一个对象？false 红色的
+256  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+256  [main] INFO  d.c.prototype.PrototypeTest - rectangle `s hashCode: 32219311,cloneCp `s hashCode: 32219311
+256  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp1是否是同一个对象？false 红色的
+256  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+257  [main] INFO  d.c.prototype.PrototypeTest - rectangle `s hashCode: 32219311,cloneCp `s hashCode: 32219311
+257  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp2是否是同一个对象？false 红色的
+257  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+269  [main] INFO  d.c.prototype.PrototypeTest - rectangle `s hashCode: 591137559,cloneCp `s hashCode: 1674896058
+272  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp0是否是同一个对象？false 红色的
+272  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+272  [main] INFO  d.c.prototype.PrototypeTest - rectangle `s hashCode: 591137559,cloneCp `s hashCode: 2030562336
+273  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp1是否是同一个对象？false 红色的
+273  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+273  [main] INFO  d.c.prototype.PrototypeTest - rectangle `s hashCode: 591137559,cloneCp `s hashCode: 1416233903
+273  [main] INFO  d.c.prototype.PrototypeTest - rectangle和cloneCp2是否是同一个对象？false 红色的
+273  [main] INFO  d.createType.prototype.Rectangle - Inside Rectangle::draw() method.
+280  [main] INFO  d.c.singleton.SingletonTest - 使用非线程安全的懒汉式单例模式创建对象
+285  [main] INFO  d.c.singleton.SingletonTest - object1 `s hashCode: 984849465,objectw `s hashCode: 984849465
+285  [main] INFO  d.c.singleton.SingletonTest - 两个对象是否相同：true
+291  [main] INFO  SingletonTest - 使用非线程安全的懒汉式单例模式创建对象
+304  [main] INFO  SingletonTest - object1 `s hashCode: 731395981,objectw `s hashCode: 731395981
+216  [main] INFO  d.c.singleton.SingletonTest - 使用非线程安全的懒汉式单例模式创建对象
+221  [main] INFO  d.c.singleton.SingletonTest - object1 `s hashCode: 731395981,objectw `s hashCode: 731395981

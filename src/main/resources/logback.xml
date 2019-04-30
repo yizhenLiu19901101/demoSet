@@ -7,7 +7,7 @@
     <!--  控制台输出 -->
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%contextName  %X{location}  %highlight([%-5level]) %cyan(%d{HH:mm:ss.SSS}) %yellow([%thread]) %red(%logger{36}) - %blue(%msg%n)</pattern>
+            <pattern>%contextName %highlight([%-5level]) %cyan(%d{HH:mm:ss.SSS}) %yellow([%thread]) %red(%logger{36}) - %blue(%msg%n)</pattern>
         </encoder>
     </appender>
 
@@ -37,7 +37,7 @@
     </logger>
 
     <!-- 默认根日志级别 -->
-    <root level="ERROR">
+    <root level="INFO">
         <appender-ref ref="console"/>
         <!--
             <appender-ref ref="file"/>
