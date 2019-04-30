@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<configuration>
+
+    <!-- 环境变量-->
+    <contextName>demoSet</contextName>
+
+    <!--  控制台输出 -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%contextName  %X{location}  %highlight([%-5level]) %cyan(%d{HH:mm:ss.SSS}) %yellow([%thread]) %red(%logger{36}) - %blue(%msg%n)</pattern>
+        </encoder>
+    </appender>
+
+    <!--文件输出
+        <appender name="file" class="ch.qos.logback.core.FileAppender">
+            <file>demoSet.log</file>
+            <append>true</append>
+            <encoder>
+                <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+            </encoder>
+        </appender>
+    -->
+    <!-- 循环文件输出-->
+    <appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 自定义Logger对象,根路径从Logger开始 -->
+    <logger name="log.HelloLog" level="TRACE" additivity="false">
+        <appender-ref ref="console"/>
+    </logger>
+
+    <!-- 默认根日志级别 -->
+    <root level="ERROR">
+        <appender-ref ref="console"/>
+        <!--
+            <appender-ref ref="file"/>
+        -->
+        <appender-ref ref="rollingFile"/>
+    </root>
+</configuration>
