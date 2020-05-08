@@ -35,20 +35,20 @@ public class DFSBinaryTreeDemo {
     /**
      * 深度优先搜索算法（Depth First Search），是图算法的一种
      * @param nums
-     * @param start
+     * @param level
      * @param subset
      */
-    private static void subsetsDFS(int[] nums, int start, List<Integer> subset) {
+    private static void subsetsDFS(int[] nums, int level, List<Integer> subset) {
         // 结束条件
-        if (start == nums.length) {
+        if (level == nums.length) {
             subsets.add(new ArrayList(subset));
             return;
         }
         // 选择当前元素
-        subset.add(nums[start]);
-        subsetsDFS(nums, start + 1, subset);
+        subset.add(nums[level]);
+        subsetsDFS(nums, level + 1, subset);
         // 不选择当前元素
         subset.remove(subset.size() - 1);
-        subsetsDFS(nums, start + 1, subset);
+        subsetsDFS(nums, level + 1, subset);
     }
 }
