@@ -10,11 +10,11 @@ import java.text.SimpleDateFormat;
  */
 public class HelloLog {
 
-    private static Logger logger = LoggerFactory.getLogger(HelloLog.class); /**
+    private static Logger logger = LoggerFactory.getLogger(HelloLog.class);
+     /**
      * 主程序
      * @param args
      */
-
     public static void main(String[] args){
         //映射诊断环境
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

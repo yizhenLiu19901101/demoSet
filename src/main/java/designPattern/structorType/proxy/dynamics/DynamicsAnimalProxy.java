@@ -22,8 +22,7 @@ public class DynamicsAnimalProxy implements InvocationHandler {
 		super();
 		this.object = object;
 	}
-	
-	@Override
+
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		System.out.println("洗手");
 		method.invoke(object, args);

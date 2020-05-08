@@ -1,5 +1,6 @@
 package designPattern.rsaEncode;
 
+import designPattern.utils.LoggerUtil;
 import org.apache.commons.codec.binary.Base64;
 import javax.crypto.Cipher;
 import java.io.*;
@@ -39,7 +40,7 @@ public class rsaTestClass {
         Cipher cipher = Cipher.getInstance("RSA");  // 确定算法
         cipher.init(Cipher.ENCRYPT_MODE, privateKey);  // 确定加密密钥
         byte[] result = cipher.doFinal("原文".getBytes());  // 加密
-        System.out.println(Base64.encodeBase64String(result));
+        LoggerUtil.info(Base64.encodeBase64String(result));
         // 格式化公钥
         X509EncodedKeySpec x509EncodedKeySpec = new X509EncodedKeySpec(rsaPublicKey.getEncoded());
         keyFactory = KeyFactory.getInstance("RSA");
@@ -47,19 +48,19 @@ public class rsaTestClass {
 
         cipher = Cipher.getInstance("RSA"); // 确定算法
         cipher.init(Cipher.DECRYPT_MODE, publicKey);  // 确定公钥
-        System.out.println(new String(cipher.doFinal(result))); // 解密
+        LoggerUtil.info(new String(cipher.doFinal(result))); // 解密
 
         byte[] publicKeyBytes= publicKey.getEncoded();
         String publicKeyBase64=Base64.encodeBase64String(publicKeyBytes);
-        System.out.println("publicKeyBase64:"+publicKeyBase64);
+        LoggerUtil.info("publicKeyBase64:"+publicKeyBase64);
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream(PUBLIC_KEY_FILE));
 
         PublicKey key = (PublicKey) ois.readObject();
-        System.out.println("********************************************************************");
+        LoggerUtil.info("********************************************************************");
 
-        publicKeyBytes= key.getEncoded();
-        publicKeyBase64=Base64.encodeBase64String(publicKeyBytes);
-        System.out.println("publicKeyBase64:"+publicKeyBase64);
+        publicKeyBytes = key.getEncoded();
+        publicKeyBase64 = Base64.encodeBase64String(publicKeyBytes);
+        LoggerUtil.info("publicKeyBase64:"+publicKeyBase64);
     }
 }
