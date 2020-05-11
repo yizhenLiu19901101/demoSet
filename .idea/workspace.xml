@@ -2,165 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f440db-50f2-430e-bad1-6a9cfbeb3fad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/ListMergeAndNoRepeatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interview/QuickSortDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/interview/DFSBinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/DFSBinaryTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/demoSet.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandOff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandOff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandOn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/CommandTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/Control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/Tv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/command/Tv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/ChainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/ChainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/ConsumeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/ConsumeHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/DeptHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/DeptHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/GeneralHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/GeneralHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/ProjectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/duty/ProjectHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/And.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/And.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Context.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Expression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/InterpreterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/InterpreterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Not.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Not.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Or.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Or.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/interpreter/Variable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/ConcreateIteratorAggregate$ConcreteIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/ConcreateIteratorAggregate$ConcreteIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/ConcreateIteratorAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/ConcreateIteratorAggregate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/Iterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/IteratorAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/IteratorAggregate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/IteratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/blackIterator/IteratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/ConcreateIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/ConcreateIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/ConcreateIteratorAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/ConcreateIteratorAggregate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/Iterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/IteratorAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/IteratorAggregate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/IteratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/iterator/whiteIterator/IteratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/Colleague.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/Colleague.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/ColleagueA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/ColleagueA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/ColleagueB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/ColleagueB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/ConcreteMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/ConcreteMediator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/MediateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/MediateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/Mediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/mediate/Mediator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/note/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/note/ClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/note/GameRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/note/GameRole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/note/RoleStateMange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/note/RoleStateMange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/note/RoleStateMemento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/note/RoleStateMemento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/ConcreteObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/ConcreteObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/ConcreteSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/ConcreteSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/Observer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/ObserverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/ObserverTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/observer/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/ConcreteStateA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/ConcreteStateA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/ConcreteStateB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/ConcreteStateB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/Context.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/StatusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/status/StatusTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/AdvancedMemberStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/AdvancedMemberStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/InterMediateStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/InterMediateStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/MemberStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/MemberStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/Price.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/PrimaryStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/PrimaryStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/StrategyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/strategy/StrategyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/template/AbstractPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/template/AbstractPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/template/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/template/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/template/TemplateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/template/TemplateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/ConcreteElement1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/ConcreteElement1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/ConcreteElement2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/ConcreteElement2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/Element.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/IVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/IVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/ObjectStruture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/ObjectStruture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/Visitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/VisitorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/behavierType/visitor/VisitorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/BuilderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/BuilderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/ConcreteBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/ConcreteBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/builder/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/StaticsAnimalProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/StaticsAnimalProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/FactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/FactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/Provider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/SendFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/SendFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/SendMailFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/SendMailFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/SendSMSFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/abstractFactory/SendSMSFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/multiMethodFactory/FactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/multiMethodFactory/FactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/FactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/FactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/MailSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/MailSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/MessageType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/SendFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/SendFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/Sender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/Sender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/SmsSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/plainFactory/SmsSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/staticMultiMethodFactory/FactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/staticMultiMethodFactory/FactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/staticMultiMethodFactory/SendFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/factory/staticMultiMethodFactory/SendFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/prototype/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/prototype/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/prototype/ShapeObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/prototype/ShapeObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/hungery/HungrySingletonObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/hungery/HungrySingletonObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/DoubleLockSingletonObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/DoubleLockSingletonObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/SafeThreadSingletonObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/SafeThreadSingletonObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/StaticInnerClassSingletonObject$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/StaticInnerClassSingletonObject$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/StaticInnerClassSingletonObject$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/StaticInnerClassSingletonObject$SingletonHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/StaticInnerClassSingletonObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/StaticInnerClassSingletonObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/UnsafeThreadSingletonObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/createType/singleton/lazy/UnsafeThreadSingletonObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/rsaEncode/rsaTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/rsaEncode/rsaTestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterClass/Adaptee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterClass/Adaptee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterClass/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterClass/Adapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterClass/AdapterClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterClass/AdapterClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterClass/Target.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterClass/Target.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterObject/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterObject/Adapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterObject/AdapterObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/adapter/adapterObject/AdapterObjectTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/AbstractCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/AbstractCar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/AbstractRoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/AbstractRoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/BridgeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/BridgeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/Bus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/SpeedWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/SpeedWay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/Street.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/bridge/Street.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/component/Component.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/component/Component.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/component/ComponentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/component/ComponentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/component/Composite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/component/Composite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/component/Leaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/component/Leaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/Change.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/Change.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/DecoratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/DecoratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/Fish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/Monkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/Monkey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/TheGreatestStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/decorator/TheGreatestStage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/CPU.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/CPU.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/Disk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/Disk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/FacadeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/FacadeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/Memory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/facade/Memory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/cglib/CglibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/cglib/CglibProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/cglib/DoCgLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/cglib/DoCgLib.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/cglib/SayHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/cglib/SayHello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/dynamics/DynamicsAnimalProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/dynamics/DynamicsAnimalProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/dynamics/DynamicsAnimalProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/dynamics/DynamicsAnimalProxyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/entity/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/entity/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/entity/AnimalImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/entity/AnimalImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/entity/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/entity/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/statics/StaticsAnimalProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/proxy/statics/StaticsAnimalProxyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/ConcreteCompositeFlyWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/ConcreteCompositeFlyWeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/ConcreteFlyWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/ConcreteFlyWeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/FlyWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/FlyWeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/FlyWeightFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/FlyWeightFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/ShareMetaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/multiShareMeta/ShareMetaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/pureShareMeta/ConcreteFlyWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/pureShareMeta/ConcreteFlyWeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/pureShareMeta/FlyWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/pureShareMeta/FlyWeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/pureShareMeta/FlyWeightFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/pureShareMeta/FlyWeightFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/pureShareMeta/ShareMetaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/structorType/share/pureShareMeta/ShareMetaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designPattern/utils/LoggerUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designPattern/utils/LoggerUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/BFSBinaryTreeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interview/BFSBinaryTreeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/DFSBinaryTreeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interview/DFSBinaryTreeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interview/DynamicProgrammingDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interview/DynamicProgrammingDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/HelloLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/HelloLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflection/DynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reflection/DynamicProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflection/MyInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reflection/MyInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflection/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reflection/RealSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflection/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reflection/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo/KnowledgeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/demo/KnowledgeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/designPattern/createType/singleton/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/designPattern/createType/singleton/SingletonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/prototype/PrototypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/prototype/PrototypeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interview/interview.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/interview.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/StreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stream/StreamDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,10 +30,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
   <component name="ProjectId" id="1bc0RBwAaiIh1iIqP9jSrdgA3S2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -193,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/designPattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/interview" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -208,13 +54,14 @@
       <recent name="designPattern.createType.singleton" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/interview" />
       <recent name="$PROJECT_DIR$/src/main/java/designPattern" />
       <recent name="$PROJECT_DIR$/src/main/java/designPattern/behavierType/observer" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo">
+  <component name="RunManager" selected="Application.HeapSort">
     <configuration name="DFSBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.DFSBinaryTreeDemo" />
       <module name="demoSet" />
@@ -241,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.DynamicProxy" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.HeapSort" />
       <module name="demoSet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.QuickSortDemo" />
+      <module name="demoSet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,26 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rsaTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designPattern.rsaEncode.rsaTestClass" />
-      <module name="demoSet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designPattern.rsaEncode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.QuickSortDemo" />
         <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.DynamicProgrammingDemo" />
         <item itemvalue="Application.DFSBinaryTreeDemo" />
-        <item itemvalue="Application.DynamicProxy" />
-        <item itemvalue="Application.rsaTestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -344,22 +191,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588928343744" />
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1588930335706">
+    <state width="1334" height="243" key="GridCell.Tab.0.bottom" timestamp="1589177119203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588930335706" />
-    <state width="1398" height="243" key="GridCell.Tab.0.center" timestamp="1588930335705">
+    <state width="1334" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589177119203" />
+    <state width="1334" height="243" key="GridCell.Tab.0.center" timestamp="1589177119201">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588930335705" />
-    <state width="1398" height="243" key="GridCell.Tab.0.left" timestamp="1588930335704">
+    <state width="1334" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589177119201" />
+    <state width="1334" height="243" key="GridCell.Tab.0.left" timestamp="1589177119200">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588930335704" />
-    <state width="1398" height="243" key="GridCell.Tab.0.right" timestamp="1588930335705">
+    <state width="1334" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589177119200" />
+    <state width="1334" height="243" key="GridCell.Tab.0.right" timestamp="1589177119202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588930335705" />
+    <state width="1334" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589177119202" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588917398091">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
