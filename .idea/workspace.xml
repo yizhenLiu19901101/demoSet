@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f440db-50f2-430e-bad1-6a9cfbeb3fad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/ListMergeAndNoRepeatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interview/QuickSortDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/DFSBinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/DFSBinaryTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interview/interview.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/interview.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stream/StreamDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stream/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stream/StreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interview/DynamicProgrammingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/DynamicProgrammingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interview/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,22 +185,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588928343744" />
-    <state width="1334" height="243" key="GridCell.Tab.0.bottom" timestamp="1589177119203">
+    <state width="1334" height="243" key="GridCell.Tab.0.bottom" timestamp="1589178140143">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1334" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589177119203" />
-    <state width="1334" height="243" key="GridCell.Tab.0.center" timestamp="1589177119201">
+    <state width="1334" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589178140143" />
+    <state width="1334" height="243" key="GridCell.Tab.0.center" timestamp="1589178140142">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1334" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589177119201" />
-    <state width="1334" height="243" key="GridCell.Tab.0.left" timestamp="1589177119200">
+    <state width="1334" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589178140142" />
+    <state width="1334" height="243" key="GridCell.Tab.0.left" timestamp="1589178140142">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1334" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589177119200" />
-    <state width="1334" height="243" key="GridCell.Tab.0.right" timestamp="1589177119202">
+    <state width="1334" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589178140142" />
+    <state width="1334" height="243" key="GridCell.Tab.0.right" timestamp="1589178140143">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1334" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589177119202" />
+    <state width="1334" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589178140143" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588917398091">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

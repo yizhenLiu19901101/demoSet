@@ -14,7 +14,7 @@ public class DynamicProgrammingDemo {
     public static void main(String[] args){
         int stageNum = 4;
         int ways = jumpFloor(stageNum);
-        System.out.println("台阶有"+ stageNum +"级，共有"+ways+"跳法");
+        System.out.println(" 台阶有 " + stageNum + "级，共有" + ways + "跳法");
     }
 
     /**
@@ -29,6 +29,6 @@ public class DynamicProgrammingDemo {
         if(target == 2){
             return 2;
         }
-        return jumpFloor(target-1) + jumpFloor(target-2);
+        return jumpFloor(target - 1) + jumpFloor(target - 2);
     }
 }
