@@ -15,7 +15,7 @@ public class CountDownLatchTest {
 
     private static final Random random = new Random();
 
-    //计数器，用于判断发令之前运动员是否已经进⼊入准备状态，需要等待5个运动员准备就绪，占有锁，等待5个运动员完成，释放锁。
+    // 计数器，用于判断发令之前运动员是否已经进⼊入准备状态，需要等待5个运动员准备就绪，占有锁，等待5个运动员完成，释放锁。
     private static CountDownLatch readyLatch = new CountDownLatch(SPORTSMAN_COUNT);
 
     // 计数器，⽤用于判断裁判是否已经发令，占有锁，等待裁判发令完成，释放锁
@@ -42,7 +42,7 @@ public class CountDownLatchTest {
         // CountDownLatch readyLatch = new CountDownLatch(SPORTSMAN_COUNT);
         // ⽤用于判断裁判是否已经发令，占有锁，等待裁判发令完成，释放锁
         // CountDownLatch startLatch = new CountDownLatch(1);
-        // 启动10个线程，也就是10个运动员，做准备⼯工作
+        // 启动5个线程，也就是5个运动员，做准备工作
         ExecutorService es = Executors.newFixedThreadPool(SPORTSMAN_COUNT);
         for (int i = 0; i < SPORTSMAN_COUNT; i++) {
             RunTask task = new RunTask(( i+ 1) + "号运动员", readyLatch, startLatch);
